@@ -27,6 +27,14 @@
            review="gerrit-ssh.aospa.co"
            revision="vauxite"/>
 
+  <remote  name="aospa-pp"
+           fetch="ssh://git@github.com"
+           revision="vauxite" />
+
+  <remote  name="aospa-pp-gitlab"
+           fetch="ssh://git@gitlab.com"
+           revision="vauxite" />
+
   <remote  name="bitbucket"
            fetch="https://bitbucket.org"
            revision="vauxite" />
@@ -50,6 +58,7 @@
 
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
+  <include name="aospa-pp.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
