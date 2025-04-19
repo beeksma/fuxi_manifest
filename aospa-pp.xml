@@ -85,6 +85,7 @@
   <project path="vendor/google/gms" name="aospa-pp/android_vendor_google_gms" remote="aospa-pp-gitlab" clone-depth="1" /> -->
   <remove-project name="android_vendor_google_pixel" />
   <project path="vendor/google/pixel" name="aospa-pp/android_vendor_google_pixel" remote="aospa-pp" clone-depth="1" />
+  <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" />
   <remove-project name="proprietary_vendor_qcom_common" />
   <project path="vendor/qcom/common" name="aospa-pp/proprietary_vendor_qcom_common" remote="aospa-pp" />
 
