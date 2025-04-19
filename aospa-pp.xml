@@ -72,8 +72,6 @@
   <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" remote="lineage-os" />
   <remove-project name="platform/packages/apps/Contacts" />
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" remote="lineage-os" />
-  <remove-project name="platform/packages/apps/StorageManager" />
-  <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" remote="lineage-os" />
   <project path="packages/apps/quik" name="octoshrimpy/quik" remote="github-ssh" revision="master" />
   <project path="packages/apps/AuroraStore" name="whyorean/AuroraStore" remote="github-ssh" revision="master" />
 
