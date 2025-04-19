@@ -65,6 +65,18 @@
   <remove-project name="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Connectivity" name="aospa-pp/android_packages_modules_Connectivity" remote="aospa-pp" />
 
+  <!-- FOSS Packages -->
+  <remove-project name="packages/apps/Dialer" />
+  <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" remote="lineage-os" />
+  <remove-project name="packages/providers/ContactsProvider" />
+  <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" remote="lineage-os" />
+  <remove-project name="packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" remote="lineage-os" />
+  <remove-project name="packages/apps/StorageManager" />
+  <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" remote="lineage-os" />
+  <project path="packages/apps/quik" name="octoshrimpy/quik" remote="github-ssh" revision="master" />
+  <project path="packages/apps/AuroraStore" name="whyorean/AuroraStore" remote="github-ssh" revision="master" />
+
   <!-- System -->
   <remove-project name="AOSPA/android_system_core" />
   <project path="system/core" name="aospa-pp/android_system_core" remote="aospa-pp" />
