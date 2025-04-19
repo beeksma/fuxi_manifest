@@ -67,6 +67,8 @@
 
   <!-- FOSS Packages -->
   <remove-project name="platform/packages/apps/Dialer" />
+  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" remote="lineage-os" />
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" remote="lineage-os" />
   <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" remote="lineage-os" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" remote="lineage-os" />
