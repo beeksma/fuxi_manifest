@@ -55,6 +55,10 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <remote  name="lineage-os"
+           fetch="ssh://git@github.com"
+           revision="lineage-22.2" />
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="aospa-pp.xml"/>
