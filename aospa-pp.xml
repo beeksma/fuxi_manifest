@@ -66,7 +66,6 @@
   <project path="packages/modules/Connectivity" name="aospa-pp/android_packages_modules_Connectivity" remote="aospa-pp" />
 
   <!-- FOSS Packages -->
-  <remove-project name="platform/packages/apps/Dialer" />
   <!-- Leave out all other Lineage stuff for now
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" remote="lineage-os" />
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" exclude-paths="release/flag_values/bp1a/*" remote="lineage-os" />
@@ -75,7 +74,6 @@
   <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" remote="lineage-os" />
   <remove-project name="platform/packages/apps/Contacts" />
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" remote="lineage-os" /> -->
-  <project path="packages/apps/Quik" name="octoshrimpy/quik" remote="github-ssh" revision="master" />
   <project path="packages/apps/AuroraStore" name="whyorean/AuroraStore" remote="github-ssh" revision="master" />
 
   <!-- System -->
