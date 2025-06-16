@@ -108,8 +108,8 @@
 
   <project path="vendor/bcr" name="aospa-pp/android_vendor_bcr" remote="aospa-pp" />
 
-  <!-- <remove-project name="android_vendor_google_gms" />
-  <project path="vendor/google/gms" name="aospa-pp/android_vendor_google_gms" remote="aospa-pp-gitlab" clone-depth="1" /> -->
+  <remove-project name="android_vendor_google_gms" />
+  <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github-ssh" revision="master" />
 
   <remove-project name="android_vendor_google_pixel" />
   <project path="vendor/google/pixel" name="aospa-pp/android_vendor_google_pixel" remote="aospa-pp" clone-depth="1" />
