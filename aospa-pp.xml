@@ -84,6 +84,8 @@
   <remove-project name="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Connectivity" name="aospa-pp/android_packages_modules_Connectivity" remote="aospa-pp" />
 
+  <project path="packages/apps/Seedvault" name="seedvault-app/seedvault" remote="github-ssh" revision="android15" />
+
   <!-- System -->
   <remove-project name="AOSPA/android_system_core" />
   <project path="system/core" name="aospa-pp/android_system_core" remote="aospa-pp" />
